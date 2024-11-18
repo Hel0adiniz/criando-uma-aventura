@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <title>O Artefato dos Quatro Reinos</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Durante uma expedição em um museu, você encontra um artefato brilhante. Um guardião aparece e avisa:
+                Este objeto é a chave para salvar os Quatro Reinos, mas cada escolha será crucial. Para começar sua
+                jornada, escolha o primeiro reino a explorar.</p>
+            <button class="btn-proximo" data-proximo="1">Reino das Montanhas Geladas</button>
+            <button class="btn-proximo" data-proximo="2">Reino dos Desertos Infinitos</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="cenario-passo1.png" alt="">
+            <p>Você chega ao Reino das Montanhas Geladas, onde um ancião conta que o artefato pode ser ativado por uma
+                joia guardada em um templo de gelo.</p>
+            <button class="btn-proximo" data-proximo="3">Buscar a joia no templo</button>
+            <button class="btn-proximo" data-proximo="6">Explorar outras partes do reino</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo2.png" alt="">
+            <p>No Reino dos Desertos Infinitos, uma tempestade de areia o surpreende. Durante a calmaria, você encontra
+                uma bússola mágica que pode levar ao próximo passo da aventura.</p>
+            <button class="btn-proximo" data-proximo="7">Usar a bússola para encontrar o Oásis Escondido</button>
+            <button class="btn-proximo" data-proximo="6">Voltar à cidade para buscar mais informações</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="cenario-passo3.png" alt="">
+            <p>Você entra no Templo de Gelo e enfrenta um frio cortante. No centro da sala principal, há um pedestal com
+                a joia. Contudo, ele está protegido por um enigma mágico que você precisa resolver.</p>
+            <button class="btn-proximo" data-proximo="4">Tentar resolver o enigma</button>
+            <button class="btn-proximo" data-proximo="6">Explorar outras salas do templo</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4.png" alt="">
+            <p>O enigma pergunta: Eu sou leve como uma pena, mas nem o homem mais forte consegue me segurar por muito
+                tempo. O que sou eu? Após resolver o enigma, a joia é liberada, e você sente um poder antigo
+                preenchendo o artefato.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o próximo reino: Oásis dos Desertos</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="cenario-passo5.png" alt="">
+            <p>Você decide que a missão é perigosa demais e retorna para sua vila. No entanto, o artefato começa a
+                emitir uma luz misteriosa, indicando que você não pode fugir do seu destino.</p>
+            <button class="btn-proximo" data-proximo="8">Ignorar a luz e continuar sua vida</button>
+            <button class="btn-proximo" data-proximo="0">Seguir as instruções do artefato e tentar novamente</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="cenario-passo6.png" alt="">
+            <p>Enquanto explora, você encontra pinturas que contam a história dos Quatro Reinos. Uma delas revela a
+                localização de outro item importante: o Cetro do Vento.</p>
+            <button class="btn-proximo" data-proximo="9">Buscar o Cetro do Vento no Reino das Montanhas Altas</button>
+            <button class="btn-proximo" data-proximo="4">Voltar e tentar resolver o enigma principal</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="cenario-passo7.png" alt="">
+            <p>Ao chegar no Oásis, você descobre que ele é protegido por um espírito ancestral que só aparece ao cair da
+                noite. O espírito pode lhe dar a próxima pista, mas você precisa passar por um teste de coragem.</p>
+            <button class="btn-proximo" data-proximo="10">Aguardar pacientemente pela noite</button>
+            <button class="btn-proximo" data-proximo="4">Tentar explorar o oásis sem esperar pelo espírito</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="cenario-passo8.png" alt="">
+            <p>No Reino das Montanhas Altas, você encontra o Cetro do Vento em uma caverna protegida por ventos ferozes.
+                Você precisará de um plano para se aproximar sem ser arrastado pela força das rajadas.</p>
+            <button class="btn-proximo" data-proximo="3">Usar a joia para proteger-se do vento</button>
+            <button class="btn-proximo" data-proximo="4">Tentar encontrar outro caminho pela caverna</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="cenario-passo9.png" alt="">
+            <p>Você encontra o Cetro do Vento e, com a ajuda dele, consegue controlar os ventos ferozes, avançando com
+                sucesso para o próximo passo da jornada.</p>
+            <button class="btn-proximo" data-proximo="10">Seguir para o próximo passo</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="cenario-passo10.png" alt="">
+            <p>Você chegou ao final da sua jornada. O artefato agora está completo, e você deve decidir o destino dos Quatro Reinos.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar a jornada</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
