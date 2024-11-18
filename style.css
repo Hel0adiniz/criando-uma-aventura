@@ -1,0 +1,56 @@
+body {
+    font-family: 'Concert One', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #cfc5d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    background: #E6E6FA;
+    color: #4B0082;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+button {
+    background-color: #D8BFD8;
+    color:#BA55D3;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #311738;
+    color: #ffffff;
+}
+
+main{
+    
+    max-width: 90%;
+}
+
+img{
+    max-width: 60%;
+}
+
